@@ -1,0 +1,88 @@
+@media (max-width: 800px){
+	main {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	article {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	aside {
+		display: flex;
+		justify-content: center;
+	}
+
+	.kursi {
+		margin-top: 80px;
+	}
+
+	.kursi2 {
+		margin-top: 0;
+	}
+
+	.products {
+/*		flex-direction: column;*/
+		flex-wrap: wrap;
+	}
+
+	.harga img {
+		width: 180px;
+		height: 180px;
+	}
+
+	.hidden {
+		display: block;
+	}
+
+	.hiddenr {
+		display: none;
+	}
+
+	.main4 {
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mid {
+		width: 500px;
+	}
+
+	.main5 {
+		flex-wrap: wrap;
+	}
+
+	.wd2 {
+		flex-wrap: wrap;
+	}
+
+	.home h2 {
+		top: -15px;
+	}
+}
+
+@media (max-width: 650px) {
+	article {
+		padding-left: 0;
+		align-items: center;
+	}
+
+	article p {
+		text-align: center;
+	}
+	aside {
+		display: none;
+	}
+
+	.main5 {
+		flex-direction: column;
+	}
+
+	.dons {
+		width: 100%;
+	}
+}
+
