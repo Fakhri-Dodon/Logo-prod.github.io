@@ -14,7 +14,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: green;
+	background-color: grey;
 }
 
 .nav {
@@ -57,7 +57,7 @@ a {
 .main1 {
 	display: flex;
 	justify-content: space-between;
-	background-color: green;
+	background-color: grey;
 	height: auto;
 }
 
@@ -140,7 +140,7 @@ i {
 
 /*main3*/
 .main3 {
-	background-color: pink;
+	background-color: grey;
 	text-align: center;
 }
 
@@ -157,7 +157,7 @@ i {
 	justify-content: center;
 	align-items: center;
 	margin-top: 30px;
-	background-color: pink;
+	background-color: grey;
 	/*height: 270px;
 	width: 200px;*/
 }
@@ -175,7 +175,7 @@ i {
 }
 
 .harga {
-	background-color: green;
+	background-color: black;
 	color: white;
 	border-radius: 10px;
 	margin-left: 20px;
